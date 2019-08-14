@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    background-image: url("WebApp.png"); 
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper .item h1 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding-left: 0;
+}
+
+.wrapper .item.item_1 h1 {
+    color: #f4581b;
+}
+
+.wrapper .item .info p {
+    font-family: 'Mali', cursive;
+    font-size: 20px;
+    color: black;
+    margin-top: 35px;
+    padding-left: 200px;
+}
+
+
+
+
+
+
+header {
+    height: 60px;
+    background-position: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+}
+
+.container ul {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.container ul li {
+    display: inline-block;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.container ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.logo img {
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}

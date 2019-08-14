@@ -1,0 +1,130 @@
+body {
+    
+    background-image: url("WebApp.png");
+}
+
+header {
+    height: 50px;
+    background-position: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 25px;
+    border: 1px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.logo img {
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+.wrapper {
+    width: 900px;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.single-price {
+    width: 33%;
+    background: #f6a970;
+    float: left;
+    margin: 10px 0.5px;
+    box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+
+.price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #da4357;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.deals {
+    margin-top: 10%;
+}
+
+.single-price h1 {
+    font-size: 30px;
+    color: black;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+.price h2{
+    font-size: 38px;
+    color: white;
+}
+
+.deals h4 {
+    font-family: 'Mali', cursive;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+    line-height: 1;
+}
+
+.single-price:hover {
+    background: #da4357;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.single-price:hover.price {
+    border-color: white;
+}
+
+/*
+.single-price a {
+    text-decoration: #da4357;
+    color: white;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.single-price:hover a {
+    background: #2626;
+    color: black;
+} */
